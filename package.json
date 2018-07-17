@@ -1,0 +1,31 @@
+{
+  "name": "psd",
+  "version": "1.0.0",
+  "description": "广告投放系统",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --progress --config ./build/webpack.config.js",
+    "build": "webpack --progress --config ./build/webpack.config.js"
+  },
+  "keywords": [
+    "react",
+    "antd",
+    "redux"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "moment": "^2.22.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.15.0",
+    "webpack-dev-server": "^3.1.4"
+  }
+}

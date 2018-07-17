@@ -1,0 +1,17 @@
+.boxs{
+    width: 100%;
+    height:600px;
+    background: #F5F5F5;
+}
+.boxs h1{
+    padding: 20px;
+}
+.boxs .Tools{
+    width: 368px;
+    height: 100px;
+    float: left;
+    margin:8px 15px;
+    background: #fff;
+    line-height: 20px;
+    padding: 10px;
+}

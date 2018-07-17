@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "宋体"
+}
+.app{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow-x: hidden;
+    position: relative;
+}
+.aside,.content{
+    float: left;
+}
+.content{
+    width: 100%;
+    height: 100%;
+}
